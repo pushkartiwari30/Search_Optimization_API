@@ -4,6 +4,7 @@ const app = express();
 const stringSimilarity = require('string-similarity');
 
 app.use(express.json()); // Middleware to parse JSON requests
+//Testing commit for 2 github accounts
 
 const medicines = [
     { name: "shelcal", price: 100.00 },
